@@ -1,0 +1,80 @@
+2019-07-10 08:41:03.647 [restartedMain] INFO  com.basic.javaframe.DemoApplication - Starting DemoApplication on CY0GKUO5SUFLLJ6 with PID 10672 (started by Administrator in E:\zhangwenhua\work\git\SecHos\代码\SecHosJava\SecHos)
+2019-07-10 08:41:03.652 [restartedMain] INFO  com.basic.javaframe.DemoApplication - The following profiles are active: dev
+2019-07-10 08:41:03.773 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-10 08:41:03.773 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-10 08:41:06.198 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-10 08:41:06.203 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 08:41:06.319 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72ms. Found 0 repository interfaces.
+2019-07-10 08:41:07.031 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca7d8599] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 08:41:07.912 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2019-07-10 08:41:07.951 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2019-07-10 08:41:07.969 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-10 08:41:07.969 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-07-10 08:41:07.994 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_60/bin/client;C:/Program Files (x86)/Java/jre1.8.0_60/bin;C:/Program Files (x86)/Java/jre1.8.0_60/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Java\jdk1.8.0_60\jre\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;E:\zhangwenhua\eclipse\eclipse;;.]
+2019-07-10 08:41:08.393 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 08:41:08.394 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4620 ms
+2019-07-10 08:41:10.612 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 08:41:10.673 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-07-10 08:41:11.298 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-07-10 08:41:11.338 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-07-10 08:41:11.355 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-07-10 08:41:11.822 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addDeptUsingPOST_1
+2019-07-10 08:41:11.829 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteDeptUsingPOST_1
+2019-07-10 08:41:11.835 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getDeptUsingGET_1
+2019-07-10 08:41:11.842 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateDeptUsingPUT_1
+2019-07-10 08:41:11.880 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: selectFrameRoleByNameUsingPOST_1
+2019-07-10 08:41:11.959 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_1
+2019-07-10 08:41:11.970 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_1
+2019-07-10 08:41:11.972 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_1
+2019-07-10 08:41:11.977 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getdeptTreesUsingPOST_1
+2019-07-10 08:41:11.979 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_1
+2019-07-10 08:41:11.981 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_2
+2019-07-10 08:41:11.988 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_2
+2019-07-10 08:41:11.994 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: auditFailInfoUsingPOST_1
+2019-07-10 08:41:11.999 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_2
+2019-07-10 08:41:12.005 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_2
+2019-07-10 08:41:12.012 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_3
+2019-07-10 08:41:12.016 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_3
+2019-07-10 08:41:12.018 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_3
+2019-07-10 08:41:12.020 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_3
+2019-07-10 08:41:12.021 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_4
+2019-07-10 08:41:12.030 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_4
+2019-07-10 08:41:12.032 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_4
+2019-07-10 08:41:12.034 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_4
+2019-07-10 08:41:12.037 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_5
+2019-07-10 08:41:12.042 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_5
+2019-07-10 08:41:12.044 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_5
+2019-07-10 08:41:12.046 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_5
+2019-07-10 08:41:12.052 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_6
+2019-07-10 08:41:12.057 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_6
+2019-07-10 08:41:12.060 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteUsingPOST_6
+2019-07-10 08:41:12.063 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_6
+2019-07-10 08:41:12.066 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateUsingPUT_7
+2019-07-10 08:41:12.118 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_7
+2019-07-10 08:41:12.120 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: auditFailInfoUsingPOST_2
+2019-07-10 08:41:12.140 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_8
+2019-07-10 08:41:12.143 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addUsingPOST_7
+2019-07-10 08:41:12.144 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: listDataUsingGET_9
+2019-07-10 08:41:12.168 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2019-07-10 08:41:12.214 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2019-07-10 08:41:12.217 [restartedMain] INFO  com.basic.javaframe.DemoApplication - Started DemoApplication in 9.689 seconds (JVM running for 10.938)
+2019-07-10 08:42:48.612 [http-nio-9091-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-10 08:42:48.613 [http-nio-9091-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-10 08:42:48.627 [http-nio-9091-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-07-10 08:42:54.349 [http-nio-9091-exec-4] INFO  com.basic.javaframe.service.api.Api_BaseService - 查询门诊患者接口参数》》》{"hzxm":"董翠影","zjh":"342121197303124422","action":"GETMZHZZJH","openid":"123456","yydm":"055159","accesskey":"1558DCE5DAB96A1CA5C16B9760FE669BB1071458FDF6FF738C2DDABAC35E872E"}
+2019-07-10 08:42:55.429 [http-nio-9091-exec-4] INFO  com.basic.javaframe.service.api.Api_BaseService - 查询门诊患者接口返回成功》》》"{\"patinfos\":[{\"birth\":\"19730312\",\"blh\":\"2015006946\",\"bxh\":\"30224205\",\"bxhlx\":\"2\",\"ghbz\":\"1\",\"hyzt\":\"已婚\",\"hzxm\":\"董翠影\",\"lxdh\":\"15962370650\",\"lxdz\":\"金港镇三角滩村第六组17号\",\"patid\":\"100873\",\"sex\":\"女\",\"ybdm\":\"701\",\"ybsm\":\"门诊实时医保\",\"zhye\":\"0.0000\",\"zjh\":\"342121197303124422\"}],\"requestId\":\"49206aa4-9fbe-4cc5-85a0-df16cd950619\",\"success\":true}"
+2019-07-10 08:42:55.789 [http-nio-9091-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-07-10 09:24:31.450 [Thread-5] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 09:24:31.454 [Thread-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-07-10 09:24:31.804 [restartedMain] INFO  com.basic.javaframe.DemoApplication - Starting DemoApplication on CY0GKUO5SUFLLJ6 with PID 10672 (started by Administrator in E:\zhangwenhua\work\git\SecHos\代码\SecHosJava\SecHos)
+2019-07-10 09:24:31.804 [restartedMain] INFO  com.basic.javaframe.DemoApplication - The following profiles are active: dev
+2019-07-10 09:24:32.811 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-10 09:24:32.811 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 09:24:32.858 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 repository interfaces.
+2019-07-10 09:24:32.994 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca7d8599] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 09:24:33.233 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2019-07-10 09:24:33.235 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2019-07-10 09:24:33.235 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-10 09:24:33.235 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-07-10 09:24:33.285 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-10 09:24:33.285 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1475 ms

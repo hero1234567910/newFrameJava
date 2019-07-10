@@ -1,0 +1,41 @@
+2019-07-10 08:41:03.652 [restartedMain] DEBUG com.basic.javaframe.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-07-10 08:42:56.721 [http-nio-9091-exec-4] DEBUG c.b.j.dao.SecHos_PatientDao.getPatientByOpenid - ==>  Preparing: select p.*,h.row_id as hospitalizedRowId,h.row_guid as hospitalizedrowGuid, h.medical_number,h.patid,h.hospitalized_status, o.row_id as outpatientRowId,o.row_guid as outpatientrowGuid, o.medical_numberMZ,o.patidMZ from sechos_patient p left join sechos_hospitalized h on p.row_guid = h.patient_rowGuid left join sechos_outpatient o on p.row_guid = o.patient_rowGuidMZ where p.openid =? and p.del_flag=0 
+2019-07-10 08:42:56.749 [http-nio-9091-exec-4] DEBUG c.b.j.dao.SecHos_PatientDao.getPatientByOpenid - ==> Parameters: 123456(String)
+2019-07-10 08:42:56.854 [http-nio-9091-exec-4] DEBUG c.b.j.dao.SecHos_PatientDao.getPatientByOpenid - <==      Total: 3
+2019-07-10 08:42:56.999 [http-nio-9091-exec-4] DEBUG com.basic.javaframe.dao.SecHos_PatientDao.update - ==>  Preparing: update sechos_patient SET `row_guid` = ?, `create_time` = ?, `del_flag` = ?, `sort_sq` = ?, `patient_birth` = ?, `patient_name` = ?, `patient_sex` = ?, `patient_idcard` = ?, `patient_address` = ?, `patient_mobile` = ?, `openid` = ?, `headimgUrl` = ?, `patient_status` = ? where row_guid = ? 
+2019-07-10 08:42:57.000 [http-nio-9091-exec-4] DEBUG com.basic.javaframe.dao.SecHos_PatientDao.update - ==> Parameters: 222536ff-8e06-4d0e-badd-3890e68757bc(String), 2019-06-17 16:33:32.0(Timestamp), 0(Integer), 0(Integer), 1973-03-12 00:00:00.0(Timestamp), 董翠影(String), 1(Integer), 342121197303124422(String), 金港镇三角滩村第六组17号(String), 15962370650(String), 123456(String), http://thirdwx.qlogo.cn/mmopen/vi_32/jBg4Hc9Vy7fcm4DwiaT2RlibQ2gRLMURl5picqsibicydCAnDOojHQlKs5ibmKS1RAQfibP9UnKPyRuZVO550RibGxHSdA/132(String), 1(Integer), 222536ff-8e06-4d0e-badd-3890e68757bc(String)
+2019-07-10 08:42:57.022 [http-nio-9091-exec-4] DEBUG com.basic.javaframe.dao.SecHos_PatientDao.update - <==    Updates: 1
+2019-07-10 08:43:19.953 [http-nio-9091-exec-6] DEBUG c.b.j.d.I.getSingleInfoByCateGuid - ==>  Preparing: select info_guid from Information_Info_Category where category_guid =? order by create_time desc limit 1; 
+2019-07-10 08:43:19.954 [http-nio-9091-exec-6] DEBUG c.b.j.d.I.getSingleInfoByCateGuid - ==> Parameters: 1e582b7f-e01e-4d79-9633-e268467cd944(String)
+2019-07-10 08:43:19.994 [http-nio-9091-exec-6] DEBUG c.b.j.d.I.getSingleInfoByCateGuid - <==      Total: 1
+2019-07-10 08:43:20.018 [http-nio-9091-exec-6] DEBUG c.b.j.dao.InformationInfoDao.getHosIntroduction - ==>  Preparing: select * from Information_Info where category_guid=? and del_flag=0 and status=1 order by create_time desc limit 1; 
+2019-07-10 08:43:20.018 [http-nio-9091-exec-6] DEBUG c.b.j.dao.InformationInfoDao.getHosIntroduction - ==> Parameters: 1c343cb1-3265-4ddb-8d23-70394777d5b5(String)
+2019-07-10 08:43:20.039 [http-nio-9091-exec-6] DEBUG c.b.j.dao.InformationInfoDao.getHosIntroduction - <==      Total: 1
+2019-07-10 08:43:21.494 [http-nio-9091-exec-9] DEBUG c.b.javaframe.dao.Frame_AttachDao.getAttachList - ==>  Preparing: select * from frame_attach where form_rowGuid = ? 
+2019-07-10 08:43:21.496 [http-nio-9091-exec-9] DEBUG c.b.javaframe.dao.Frame_AttachDao.getAttachList - ==> Parameters: 46f3e63c-a99d-49be-84a5-e1b53231768c(String)
+2019-07-10 08:43:21.513 [http-nio-9091-exec-9] DEBUG c.b.javaframe.dao.Frame_AttachDao.getAttachList - <==      Total: 0
+2019-07-10 08:49:23.390 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==>  Preparing: select * from sechos_consultation t WHERE 1=1 and del_flag = 0 order by row_id desc limit ?, ? 
+2019-07-10 08:49:23.390 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==> Parameters: 0(Integer), 10(Integer)
+2019-07-10 08:49:23.410 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - <==      Total: 10
+2019-07-10 08:49:23.497 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==>  Preparing: select count(*) from sechos_consultation t WHERE 1=1 and del_flag = 0 
+2019-07-10 08:49:23.498 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==> Parameters: 
+2019-07-10 08:49:23.510 [http-nio-9091-exec-1] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - <==      Total: 1
+2019-07-10 08:49:27.146 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==>  Preparing: select * from sechos_consultation t WHERE 1=1 and del_flag = 0 order by row_id desc limit ?, ? 
+2019-07-10 08:49:27.148 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==> Parameters: 10(Integer), 10(Integer)
+2019-07-10 08:49:27.157 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - <==      Total: 2
+2019-07-10 08:49:27.182 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==>  Preparing: select count(*) from sechos_consultation t WHERE 1=1 and del_flag = 0 
+2019-07-10 08:49:27.183 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==> Parameters: 
+2019-07-10 08:49:27.189 [http-nio-9091-exec-2] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - <==      Total: 1
+2019-07-10 08:49:29.716 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==>  Preparing: select * from sechos_consultation t WHERE 1=1 and del_flag = 0 order by row_id desc limit ?, ? 
+2019-07-10 08:49:29.717 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==> Parameters: 20(Integer), 10(Integer)
+2019-07-10 08:49:29.725 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - <==      Total: 0
+2019-07-10 08:49:29.748 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==>  Preparing: select count(*) from sechos_consultation t WHERE 1=1 and del_flag = 0 
+2019-07-10 08:49:29.749 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==> Parameters: 
+2019-07-10 08:49:29.754 [http-nio-9091-exec-6] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - <==      Total: 1
+2019-07-10 08:49:37.098 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==>  Preparing: select * from sechos_consultation t WHERE 1=1 and del_flag = 0 order by row_id desc limit ?, ? 
+2019-07-10 08:49:37.099 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - ==> Parameters: 0(Integer), 10(Integer)
+2019-07-10 08:49:37.118 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getList - <==      Total: 10
+2019-07-10 08:49:37.145 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==>  Preparing: select count(*) from sechos_consultation t WHERE 1=1 and del_flag = 0 
+2019-07-10 08:49:37.145 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - ==> Parameters: 
+2019-07-10 08:49:37.175 [http-nio-9091-exec-4] DEBUG c.b.javaframe.dao.Sechos_ConsultationDao.getCount - <==      Total: 1
+2019-07-10 09:24:31.804 [restartedMain] DEBUG com.basic.javaframe.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
